@@ -1,0 +1,46 @@
+---
+title: "Speeding-up-science-metatrans"
+author: "Zeya Xue"
+date: "5/9/2019"
+output: rmarkdown::github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(fig.path = "figs/")
+```
+
+## Load packages and setting up
+```{r}
+library(phyloseq);packageVersion("phyloseq")
+
+path <- "~/src/speeding-up-science/metatranscriptomics-group"
+```
+
+## 
+```{r}
+# The otu table slot of phyloseq object 
+TabTPM <- read.table(file.path(path,"example_data/sample_TPM.tsv"),
+                     header = TRUE, sep = "\t")
+row.names(TabTPM) <- TabTPM$CDS_ID
+TabTPM <- TabTPM[,-1]
+TabTPM <- as.matrix.data.frame(TabTPM)
+
+# The tax table slot of phyloseq object
+Tabanno <- read.table(file.path(path, "example_data/sample_annotation_classifications.tsv"),
+                      header = TRUE, sep = "\t")
+rownames(Tabanno) <- Tabanno$CDS_ID
+Tabanno <- Tabanno[,c(-1,-2)] # remove CDS_ID and KOID
+Tabanno <- as.matrix.data.frame(Tabanno)
+
+# The sample data slot of phyloseq object
+samdf <- read.csv(file.path(path,"example_data/Samdf.csv"))
+rownames(samdf) <- samdf$SampleID
+
+ps <- phyloseq(otu_table(TabTPM, taxa_are_rows = TRUE), 
+               tax_table(Tabanno), sample_data(samdf))
+ps # 20000 taxa and 4 samples
+```
+
+
+
