@@ -13,11 +13,17 @@ knitr::opts_chunk$set(fig.path = "figs/")
 ## Load packages and setting up
 ```{r}
 library(phyloseq);packageVersion("phyloseq")
+library(DESeq2);packageVersion("DESeq2")
+library(ggplot2)
+library(reshape2)
+library(superheat)
+library(plyr)
+library(dplyr)
 
 path <- "~/src/speeding-up-science/metatranscriptomics-group"
 ```
 
-## 
+## Import files to create phyloseq object
 ```{r}
 # The otu table slot of phyloseq object 
 TabTPM <- read.table(file.path(path,"example_data/sample_TPM.tsv"),
@@ -28,7 +34,7 @@ TabTPM <- as.matrix.data.frame(TabTPM)
 
 # The tax table slot of phyloseq object
 Tabanno <- read.table(file.path(path, "example_data/sample_annotation_classifications.tsv"),
-                      header = TRUE, sep = "\t")
+                      header = TRUE, sep = "\t", na.strings = "<NA>")
 rownames(Tabanno) <- Tabanno$CDS_ID
 Tabanno <- Tabanno[,c(-1,-2)] # remove CDS_ID and KOID
 Tabanno <- as.matrix.data.frame(Tabanno)
@@ -42,5 +48,53 @@ ps <- phyloseq(otu_table(TabTPM, taxa_are_rows = TRUE),
 ps # 20000 taxa and 4 samples
 ```
 
+# Heat map 
+```{r}
+# Define function to create heatmap per SampleID
+IDHeat <- function(ps, taxa, samType, w, h, path.out) {
+  my_palette <- colorRampPalette(c("red", "yellow", "green"))(n = 299)
+  # defines the color breaks manually for a "skewed" color transition
+  col_breaks = c(seq(-1,0,length=100),      # for red
+                 seq(0.01,0.8,length=100),  # for yellow
+                 seq(0.81,1,length=100))    # for green
+
+  ps <- ps %>% transform_sample_counts(function(x) x/sum(x) )  
+  # Clean up the taxonomy 
+  ps <- ps %>% tax_glom(taxrank = "Genus", NArm = FALSE)
+  
+  taxa.df <- psmelt(ps)
+  # Genus level plot
+  taxa.agg <- aggregate(Abundance ~ Genus + SampleID,
+                        data = taxa.df,
+                        mean)
+  taxa.cast <- dcast(taxa.agg, Genus ~ SampleID, mean, value.var = "Abundance")
+  # Make filter vector for the 14 selected cheddar taxa 
+  TaxTab <- tax_table(ps) %>% as.data.frame()
+  taxa_names(ps) <- TaxTab$Genus
+  allTaxa <- taxa_names(ps)
+  ps.notaxa <- prune_taxa(allTaxa[!(allTaxa %in% taxa)], ps)
+  taxa.filt <- ps.notaxa@tax_table[,6] %>% as.character() #6 for genus level 
+  # Filter
+  taxa.cast[taxa.cast$Genus %in% taxa.filt,]$Genus <- "Other"
+  taxa.cast.f <- taxa.cast[!(is.na(taxa.cast$Genus) | taxa.cast$Genus==""), ]
+  
+  # make as numeric matrix 
+  row.names(taxa.cast.f) <- taxa.cast.f$Genus
+  taxa.cast.f <- taxa.cast.f[,-1]
+  
+  
+  png(path.out, width = w, height = h)
+  superheat(taxa.cast.f,
+            left.label.size = 0.4, 
+            bottom.label.size = 0.1,
+            order.rows = rev(order(rownames(taxa.cast.f))),
+            #order.cols = c("1",2,3), # follow raw --> feed --> htst milk
+            grid.hline = FALSE,
+            title = samType,
+            title.size = 6,
+            title.alignment = "center") 
+  dev.off()
+}
+```
 
 
