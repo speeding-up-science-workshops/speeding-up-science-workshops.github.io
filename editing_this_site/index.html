@@ -38,7 +38,7 @@
     
     
       
-        <title>Editing this Site - speeding-up-science</title>
+        <title>Editing this Site</title>
       
     
     
@@ -555,6 +555,7 @@ mkdocs (above), you build the markdown into html like so:</p>
 
 <p>The site will now be rendered on your local computer (viewable in your web browser at the link that will come up on your screen with a successful <code>mkdocs serve</code>, like <code>http://127.0.0.1:8000/</code>)
 and you can continue to make changes to your <code>md</code> file until it looks right. Stop the mkdocs serve by using <code>Ctrl-C</code>.</p>
+<p>Note, if you're embedding images into your markdown, please name them appropriately (preferably including the name of your markdown file, e.g. <code>XY-workflow-img1.png</code>) and place them into the <code>docs/img</code> folder. This will keep our <code>docs</code> folder nice and clean.</p>
 <p>When you're finished, commit your changes as you normally would, e.g.: </p>
 <div class="codehilite"><pre><span></span>git add &lt;myfile.md&gt;
 git commit -m &quot;some useful commit message&quot;
@@ -562,6 +563,7 @@ git commit -m &quot;some useful commit message&quot;
 
 
 <p>And then build the site one last time and push to the <code>gh-pages</code> branch like so: </p>
+<p><strong>Note, you need to be in the main folder where the <code>mkdocs.yml</code> file is</strong></p>
 <div class="codehilite"><pre><span></span>mkdocs build
 ghp-import site -p
 </pre></div>
@@ -575,6 +577,7 @@ you'd like to put your new page in. Then add your page to the <code>nav</code> l
 </pre></div>
 
 
+<p>For more details, go <a href="https://www.mkdocs.org/user-guide/configuration/">here</a>.</p>
 <p>Then, you'll need to go through the same steps as above, for <em>Updating an Existing Page</em>.</p>
 <p>In short:</p>
 <ul>
