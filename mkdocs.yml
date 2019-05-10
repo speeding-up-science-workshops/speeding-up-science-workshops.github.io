@@ -41,10 +41,10 @@ nav:
   - 'Home' : 'index.md'
   - 'Metagenomics':
     - 'KEGG Decoder': 'kegg-decoder.md'
-    - 'MAG Statistics': 'magstats.md'
-    - 'MAG Representation': 'magrepresentation.md'
+    - 'MAG Statistics': 'mag-stats.md'
+    - 'MAG Representation': 'mag-representation.md'
   - 'Metatranscriptomics':
-    - 'LDA Analysis': 'lda.md'
+    - 'LDA Analysis': 'lda-analysis.md'
     - 'Taxa and Function Summary': 'taxa-and-function-summary.md'
   #- 'Metabarcoding':
   - 'Utilities':
