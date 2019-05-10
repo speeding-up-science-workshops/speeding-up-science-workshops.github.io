@@ -1,4 +1,4 @@
-# Interactive First-Look Metabarcoding
+# Initial Visualization for Metabarcoding Data
 
 ## Authors
 
@@ -6,7 +6,9 @@ Jane Lucas
 
 ## Summary
 
-Jupyter notebook to look at Non-Metric Multidimensional Scaling (NMDS) of metabarcoding samples.
+This Juptyer notebook contains a workflow to visualizte
+non-metric multidimensional scaling (NMDS) of 
+metabarcoding samples.
 
 ## Links
 
