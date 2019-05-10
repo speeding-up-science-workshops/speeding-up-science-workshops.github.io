@@ -48,6 +48,7 @@ nav:
     - 'Taxa and Function Summary': 'taxa-and-function-summary.md'
   - 'Metabarcoding':
     - 'Interactive First-Look Barcoding': 'interactive-firstlook-barcoding.md'
+    - 'Initial Visualization of Barcodes': 'initial-viz-barcoding.md'
   - 'Utilities':
     - 'Editing This Site': 'editing_this_site.md'
     - 'Setting Up mkdocs': 'setting_up_mkdocs.md'

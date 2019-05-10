@@ -1,20 +1,19 @@
-# Initial Visualization for Metabarcoding Data
+# Interactive First-Look Metabarcoding
 
 ## Authors
 
-Jane Lucas 
+Katie Pitz
 
 ## Summary
 
-This Juptyer notebook contains a workflow to visualizte
-non-metric multidimensional scaling (NMDS) of 
-metabarcoding samples.
+This Jupyter notebook contains a workflow to interactively
+visualize the taxa makeup of samples.
 
 ## Links
 
-**Github Repository:** <https://github.com/janelucas/NMDS>
+**Github Repository:** <https://github.com/kpitz/UCDavis_Hackathon>
 
-**Open Notebook (Binder):** [![Binder](http://mybinder.org/badge_logo.svg)](https://hub.mybinder.org/user/janelucas-nmds-thaanrd8/rstudio/)
+**Open Notebook (Binder):** [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kpitz/UCDavis_Hackathon/master)
 
 **Open Notebook (HTML):** (TBA)
 
