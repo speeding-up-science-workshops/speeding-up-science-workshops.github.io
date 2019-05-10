@@ -43,6 +43,9 @@ nav:
     - 'MAGstats': MAGstats.md
   - 'Metatranscriptomics':
     - 'LDA Analysis': LDA.md
+  - 'Utilities':
+    - 'Editing this Site': editing_this_site.md
+    - 'Setting up mkdocs elsewhere': setting_up_mkdocs.md
   #- 'Metabarcoding':
   #  - 
 
