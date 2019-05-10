@@ -49,6 +49,7 @@ nav:
   - 'Metabarcoding':
     - 'Interactive First-Look Barcoding': 'interactive-firstlook-barcoding.md'
     - 'Initial Visualization of Barcodes': 'initial-viz-barcoding.md'
+    - 'Random Forest Classifier of Metabarcode Sequence Data': 'random-forest.md'
   - 'Utilities':
     - 'Editing This Site': 'editing_this_site.md'
     - 'Setting Up mkdocs': 'setting_up_mkdocs.md'
