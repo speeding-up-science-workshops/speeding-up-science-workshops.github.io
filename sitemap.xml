@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>http://bluegenes.github.io/speeding-up-science/</loc>
+     <loc>http://speeding-up-science-workshops.github.io/speeding-up-science/</loc>
      <lastmod>2019-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://bluegenes.github.io/speeding-up-science/MAGstats/</loc>
+     <loc>http://speeding-up-science-workshops.github.io/speeding-up-science/MAGstats/</loc>
      <lastmod>2019-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://bluegenes.github.io/speeding-up-science/LDA/</loc>
+     <loc>http://speeding-up-science-workshops.github.io/speeding-up-science/LDA/</loc>
      <lastmod>2019-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://bluegenes.github.io/speeding-up-science/editing_this_site/</loc>
+     <loc>http://speeding-up-science-workshops.github.io/speeding-up-science/editing_this_site/</loc>
      <lastmod>2019-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>http://bluegenes.github.io/speeding-up-science/setting_up_mkdocs/</loc>
+     <loc>http://speeding-up-science-workshops.github.io/speeding-up-science/setting_up_mkdocs/</loc>
      <lastmod>2019-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
