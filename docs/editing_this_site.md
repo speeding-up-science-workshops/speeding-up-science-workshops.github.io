@@ -1,3 +1,9 @@
+---
+title: Editing this Site 
+date: 2019-05-10
+authors:
+  - N. Tessa Pierce (@bluegenes)
+---
 # Editing this Site
 
 All the docs on this site are written in markdown (`.md` files) and built into an html site by `mkdocs`. If you want to edit
@@ -55,6 +61,7 @@ mkdocs serve
 The site will now be rendered on your local computer (viewable in your web browser at the link that will come up on your screen with a successful `mkdocs serve`, like `http://127.0.0.1:8000/`)
 and you can continue to make changes to your `md` file until it looks right. Stop the mkdocs serve by using `Ctrl-C`.
 
+Note, if you're embedding images into your markdown, please name them appropriately (preferably including the name of your markdown file, e.g. `XY-workflow-img1.png`) and place them into the `docs/img` folder. This will keep our `docs` folder nice and clean.
 
 When you're finished, commit your changes as you normally would, e.g.: 
 
@@ -65,6 +72,8 @@ git commit -m "some useful commit message"
 
 And then build the site one last time and push to the `gh-pages` branch like so: 
 
+
+**Note, you need to be in the main folder where the `mkdocs.yml` file is**
 ```
 mkdocs build
 ghp-import site -p
@@ -79,6 +88,7 @@ you'd like to put your new page in. Then add your page to the `nav` like so:
 ```
 - 'New-Title`: new-page.md
 ```
+For more details, go [here](https://www.mkdocs.org/user-guide/configuration/).
 
 Then, you'll need to go through the same steps as above, for *Updating an Existing Page*.
 
