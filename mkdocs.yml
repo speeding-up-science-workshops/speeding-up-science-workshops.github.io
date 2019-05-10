@@ -41,8 +41,8 @@ nav:
   - 'speeding-up-science' : 'index.md'
   - 'Metagenomics':
     - 'MAGstats': MAGstats.md
-  #- 'Metatranscriptomics':
-  #  - 
+  - 'Metatranscriptomics':
+    - 'LDA Analysis': LDA.md
   #- 'Metabarcoding':
   #  - 
 
