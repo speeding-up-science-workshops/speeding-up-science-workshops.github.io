@@ -26,7 +26,7 @@ theme:
     accent: 'green'
   
   # fun logos! see https://material.io/icons/
-  logo: 'img/outline_fast_forward_black_18dp.png'
+  logo: 'img/baseline_fast_forward_white_18dp.png'
 
   font:
     text: 'Roboto'
@@ -38,14 +38,14 @@ extra_css:
 
 # give a title for each page
 nav:
-  - 'speeding-up-science' : 'index.md'
+  - 'Home' : 'index.md'
   - 'Metagenomics':
     - 'MAGstats': MAGstats.md
   - 'Metatranscriptomics':
     - 'LDA Analysis': LDA.md
   - 'Utilities':
-    - 'Editing this Site': editing_this_site.md
-    - 'Setting up mkdocs elsewhere': setting_up_mkdocs.md
+    - 'Editing This Site': editing_this_site.md
+    - 'Setting Up mkdocs': setting_up_mkdocs.md
   #- 'Metabarcoding':
   #  - 
 
