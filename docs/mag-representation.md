@@ -20,7 +20,10 @@ for details.
 
 ## Links
 
-**Github Repository:** <https://github.com/megaptera-helvetiae/MAGrepresentation-Binder>
+**Github Repository:** 
+
+* RStudio version: <https://github.com/megaptera-helvetiae/MAGrepresentation-Binder> 
+* Jupyter notebook version: <https://github.com/megaptera-helvetiae/MetaG-heat-Binder>
 
 **Open Notebook (Binder):** 
 
