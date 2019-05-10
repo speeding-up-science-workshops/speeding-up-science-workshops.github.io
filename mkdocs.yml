@@ -40,15 +40,16 @@ extra_css:
 nav:
   - 'Home' : 'index.md'
   - 'Metagenomics':
-    - 'MAGstats': 'magstats.md'
     - 'KEGG Decoder': 'kegg-decoder.md'
+    - 'MAG Statistics': 'magstats.md'
+    - 'MAG Representation': 'magrepresentation.md'
   - 'Metatranscriptomics':
     - 'LDA Analysis': 'lda.md'
     - 'Taxa and Function Summary': 'taxa-and-function-summary.md'
   #- 'Metabarcoding':
   - 'Utilities':
-    - 'Editing This Site': editing_this_site.md
-    - 'Setting Up mkdocs': setting_up_mkdocs.md
+    - 'Editing This Site': 'editing_this_site.md'
+    - 'Setting Up mkdocs': 'setting_up_mkdocs.md'
 
 # Extensions
 markdown_extensions:
