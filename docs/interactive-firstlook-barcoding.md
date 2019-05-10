@@ -1,5 +1,7 @@
 # Interactive First-Look Metabarcoding
 
+![Final visualization](img/interactive-metabarcoding.png)
+
 ## Authors
 
 Katie Pitz
