@@ -18,8 +18,5 @@ The data files and R scripts can be found in this [GitHub repo](https://github.c
 
 **Open Notebook (Binder):** [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zeyaxue/speeding-up-science-binder/master?urlpath=rstudio)
 
-**Open Notebook (HTML):** 
-
-* [Taxa Summary notebook](taxa-summary-notebook.html)
-* [Function Summary notebook](function-summary-notebook.html)
+**Open Notebook (HTML):** [HTML version](taxa-and-function-summary-notebook.html)
 
