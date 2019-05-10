@@ -44,12 +44,11 @@ nav:
     - 'KEGG Decoder': 'kegg-decoder.md'
   - 'Metatranscriptomics':
     - 'LDA Analysis': 'lda.md'
-    - 'Taxa and Function Summary': 'taxa-and-function.md'
+    - 'Taxa and Function Summary': 'taxa-and-function-summary.md'
+  #- 'Metabarcoding':
   - 'Utilities':
     - 'Editing This Site': editing_this_site.md
     - 'Setting Up mkdocs': setting_up_mkdocs.md
-  #- 'Metabarcoding':
-  #  - 
 
 # Extensions
 markdown_extensions:
