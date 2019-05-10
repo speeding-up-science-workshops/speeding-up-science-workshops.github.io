@@ -4,8 +4,8 @@
 
 ## Authors
 
-[Marian](https://orcid.org/0000-0002-2866-4496), 
-[Guillaume](https://orcid.org/0000-0002-8746-2632), 
+[Marian Schmidt](https://orcid.org/0000-0002-2866-4496), 
+[Guillaume Jospin](https://orcid.org/0000-0002-8746-2632), 
 [Laetitia Wilkins](https://orcid.org/0000-0003-3632-2063), 
 Charles Reid
 
