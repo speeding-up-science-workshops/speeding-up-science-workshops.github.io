@@ -1,5 +1,7 @@
 # Initial Visualization for Metabarcoding Data
 
+![Final visualization](img/initial-metabarcoding.png)
+
 ## Authors
 
 Jane Lucas 

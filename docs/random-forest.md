@@ -1,5 +1,7 @@
 #  Random Forest Classifier of Metabarcode Sequence Data
 
+![Final visualization](img/random-forest.png)
+
 ## Author
 
 Devon O'Rourke
