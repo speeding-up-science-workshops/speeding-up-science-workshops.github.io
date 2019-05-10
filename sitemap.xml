@@ -6,12 +6,27 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://speeding-up-science-workshops.github.io/speeding-up-science/MAGstats/</loc>
+     <loc>https://speeding-up-science-workshops.github.io/speeding-up-science/kegg-decoder/</loc>
      <lastmod>2019-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://speeding-up-science-workshops.github.io/speeding-up-science/LDA/</loc>
+     <loc>https://speeding-up-science-workshops.github.io/speeding-up-science/magstats/</loc>
+     <lastmod>2019-05-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://speeding-up-science-workshops.github.io/speeding-up-science/magrepresentation/</loc>
+     <lastmod>2019-05-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://speeding-up-science-workshops.github.io/speeding-up-science/lda/</loc>
+     <lastmod>2019-05-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://speeding-up-science-workshops.github.io/speeding-up-science/taxa-and-function-summary/</loc>
      <lastmod>2019-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
