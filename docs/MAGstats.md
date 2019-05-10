@@ -1,6 +1,6 @@
 # MAGstats
 
-![Final visualization](img/housw.png)
+![Final visualization](img/magstats.png)
 
 A workflow to visualize the completeness and redundancy of your MAGs.
 
