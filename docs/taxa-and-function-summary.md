@@ -1,4 +1,4 @@
-# MAGstats
+# Taxa and Function Summary
 
 ![Final visualization](img/taxa-and-function-summary.png)
 
