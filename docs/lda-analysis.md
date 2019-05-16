@@ -21,5 +21,3 @@ resulted in a count table of taxonomy or gene functions.
 
 **Open Notebook (Binder):** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Biancabrown/LDA_binder_2/master?urlpath=rstudio)
 
-**Open Notebook (HTML):** (TBA)
-

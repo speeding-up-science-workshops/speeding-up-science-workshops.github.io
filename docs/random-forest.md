@@ -19,4 +19,3 @@ ASVs that help discriminate amongst a metadata group. Expected outputs include:
 
 **Open Notebook (Binder):** [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/devonorourke/sus19mb/master?urlpath=rstudio)
 
-**Open Notebook (HTML):** (TBA)

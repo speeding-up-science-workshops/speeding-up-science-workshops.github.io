@@ -30,6 +30,3 @@ for details.
 * RStudio version: [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/megaptera-helvetiae/MAGrepresentation-Binder/master)
 * Jupyter notebook version: [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/megaptera-helvetiae/MetaG-heat-Binder/fixr?filepath=MetaG-Heatmap.ipynb)
 
-**Open Notebook (HTML):** (TBA)
-
-

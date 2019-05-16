@@ -21,5 +21,3 @@ of various metabolic pathways.
 
 **Open Notebook (Binder):** [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rotheconrad/KEGGDecoder-binder/master)
 
-**Open Notebook (HTML):** (TBA)
-

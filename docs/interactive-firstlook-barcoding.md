@@ -17,5 +17,3 @@ visualize the taxa makeup of samples.
 
 **Open Notebook (Binder):** [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kpitz/UCDavis_Hackathon/master)
 
-**Open Notebook (HTML):** (TBA)
-

@@ -18,5 +18,3 @@ metabarcoding samples.
 
 **Open Notebook (Binder):** [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/janelucas/nmds/master?urlpath=rstudio)
 
-**Open Notebook (HTML):** (TBA)
-
