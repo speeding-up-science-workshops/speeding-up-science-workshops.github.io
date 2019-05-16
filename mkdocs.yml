@@ -40,14 +40,19 @@ extra_css:
 nav:
   - 'Home' : 'index.md'
   - 'Metagenomics':
-    - 'MAGstats': MAGstats.md
+    - 'KEGG Decoder': 'kegg-decoder.md'
+    - 'MAG Statistics': 'mag-stats.md'
+    - 'MAG Representation': 'mag-representation.md'
   - 'Metatranscriptomics':
-    - 'LDA Analysis': LDA.md
+    - 'LDA Analysis': 'lda-analysis.md'
+    - 'Taxa and Function Summary': 'taxa-and-function-summary.md'
+  - 'Metabarcoding':
+    - 'Interactive First-Look Barcoding': 'interactive-firstlook-barcoding.md'
+    - 'Initial Visualization of Barcodes': 'initial-viz-barcoding.md'
+    - 'Random Forest Classifier of Metabarcode Sequence Data': 'random-forest.md'
   - 'Utilities':
-    - 'Editing This Site': editing_this_site.md
-    - 'Setting Up mkdocs': setting_up_mkdocs.md
-  #- 'Metabarcoding':
-  #  - 
+    - 'Editing This Site': 'editing_this_site.md'
+    - 'Setting Up mkdocs': 'setting_up_mkdocs.md'
 
 # Extensions
 markdown_extensions:
