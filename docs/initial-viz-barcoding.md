@@ -16,7 +16,7 @@ metabarcoding samples.
 
 **Github Repository:** <https://github.com/janelucas/NMDS>
 
-**Open Notebook (Binder):** [![Binder](http://mybinder.org/badge_logo.svg)](https://hub.mybinder.org/user/janelucas-nmds-thaanrd8/rstudio/)
+**Open Notebook (Binder):** [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/janelucas/nmds/master?urlpath=rstudio)
 
 **Open Notebook (HTML):** (TBA)
 
