@@ -18,7 +18,7 @@ differential expression analysis in
 
 **Github Repository:** <https://github.com/AstrobioMike/speeding-up-science-binder/>
 
-**Open Notebook (Binder):** [![Binder](https://mybinder.org/v2/gh/AstrobioMike/speeding-up-science-binder/master?urlpath=rstudio)
+**Open Notebook (Binder):** [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AstrobioMike/speeding-up-science-binder/master?urlpath=rstudio)
 
 **Open Notebook (HTML):** 
 
