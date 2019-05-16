@@ -20,7 +20,7 @@ Commit:
 
 ```
 git add .gitmodules .gitignore mkdocs-material-dib
-git commit .gitmodules .gitignore mkdocs-material-dib -m 'Add mkdocs-material-dib submodule'
+git commit -m 'Add mkdocs-material-dib submodule'
 ```
 
 ## Install `mkdocs` and `ghp-import` if necessary:
