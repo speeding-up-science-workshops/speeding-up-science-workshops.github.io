@@ -10,4 +10,4 @@ Workshop goals/products include:
 
 The first workshop happened on May 8-10, 2019 at UC Davis, and produced a number of analysis and visualization notebooks for metagenomics, metatranscriptomics, and metabarcoding. A static version of these workflows can be viewed on this site, and each workflow contains a link to an executable version hosted on Binder.
 
-You can find us on twitter at #SpeedingUpScience
+You can find us on twitter at [#SpeedingUpScience](https://twitter.com/search?q=%23SpeedingUpScience).
