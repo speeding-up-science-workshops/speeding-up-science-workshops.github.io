@@ -50,6 +50,7 @@ nav:
   - 'Metabarcoding':
     - 'Initial Visualization of Barcodes': 'initial-viz-barcoding.md'
     - 'Interactive First-Look Barcoding': 'interactive-firstlook-barcoding.md'
+    - 'Taxon Abundance Vizualization': 'abundance-viz-metabarcoding.md'
     - 'Random Forest Classifier of Metabarcode Sequence Data': 'random-forest.md'
   - 'Utilities':
     - 'Editing This Site': 'editing_this_site.md'
