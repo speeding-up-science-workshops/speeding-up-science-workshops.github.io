@@ -56,6 +56,10 @@ nav:
     - 'Editing This Site': 'editing_this_site.md'
     - 'Setting Up mkdocs': 'setting_up_mkdocs.md'
 
+google_analytics:
+  - 'UA-143922044-1'
+  - 'auto'
+
 # Extensions
 markdown_extensions:
   - admonition
