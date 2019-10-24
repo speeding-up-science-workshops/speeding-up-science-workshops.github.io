@@ -1,9 +1,9 @@
-name: Build documentation
+name: Build and deploy documentation
 
 on: [push]
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
