@@ -70,14 +70,8 @@ git add <myfile.md>
 git commit -m "some useful commit message"
 ```
 
-And then build the site one last time and push to the `gh-pages` branch like so: 
-
-
-**Note, you need to be in the main folder where the `mkdocs.yml` file is**
-```
-mkdocs build
-ghp-import site -p
-```
+The repository is set up to use GitHub Actions to build the docs and upload to
+the right branch.
 
 ## Adding a New Page
 
@@ -99,7 +93,6 @@ In short:
   - `mkdocs serve` to view page and navigation
   - repeat the above steps until satisfied
   - `git commit` (and `git push`) your changes 
-  - `mkdocs build` and then `ghp-import site -p` to update the website
 
 ## Troubleshooting
 
