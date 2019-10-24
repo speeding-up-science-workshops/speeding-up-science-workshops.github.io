@@ -639,21 +639,18 @@ configuration to make sure the file gets built into html. Read on for instructio
 <h2 id="the-first-time-you-clone-a-repo-with-a-mkdocs-submodule">The first time you clone a repo with a mkdocs submodule:<a class="headerlink" href="#the-first-time-you-clone-a-repo-with-a-mkdocs-submodule" title="Permanent link">&para;</a></h2>
 <p>If you want to edit the docs, you'll need to grab the <code>mkdocs-material-dib</code> submodule.</p>
 <p>If you're cloning the repo for the first time:</p>
-<div class="codehilite"><pre><span></span>git clone --recursive https://github.com/speeding-up-science-workshops/speeding-up-science
-</pre></div>
+<pre class="codehilite"><code>git clone --recursive https://github.com/speeding-up-science-workshops/speeding-up-science</code></pre>
 
 
 <p><code>recursive</code> will pull the submodule as well as the main git repo.</p>
 <p>However, if you already have the repo, you'll want to pull down submodule like this:</p>
-<div class="codehilite"><pre><span></span>git submodule update --init
-</pre></div>
+<pre class="codehilite"><code>git submodule update --init</code></pre>
 
 
 <h2 id="installing-the-tools">Installing the tools<a class="headerlink" href="#installing-the-tools" title="Permanent link">&para;</a></h2>
 <p>We recommend conda for tool installation.</p>
-<div class="codehilite"><pre><span></span>conda install  -c conda-forge mkdocs
-conda install -c conda-forge ghp-import
-</pre></div>
+<pre class="codehilite"><code>conda install  -c conda-forge mkdocs
+conda install -c conda-forge ghp-import</code></pre>
 
 
 <h2 id="where-are-the-docs">Where are the docs?<a class="headerlink" href="#where-are-the-docs" title="Permanent link">&para;</a></h2>
@@ -664,37 +661,32 @@ the <code>mkdocs.yml</code> file, you can find the name of the markdown file you
 <p>If you're updating a file that already exists, start by making edits to the appropriate markdown file.
 Then, you'll want to check that the markdown you wrote will be rendered properly. Assuming you've installed
 mkdocs (above), you build the markdown into html like so:</p>
-<div class="codehilite"><pre><span></span>mkdocs build
-</pre></div>
+<pre class="codehilite"><code>mkdocs build</code></pre>
 
 
 <p>And then build a local site like so:</p>
-<div class="codehilite"><pre><span></span>mkdocs serve
-</pre></div>
+<pre class="codehilite"><code>mkdocs serve</code></pre>
 
 
 <p>The site will now be rendered on your local computer (viewable in your web browser at the link that will come up on your screen with a successful <code>mkdocs serve</code>, like <code>http://127.0.0.1:8000/</code>)
 and you can continue to make changes to your <code>md</code> file until it looks right. Stop the mkdocs serve by using <code>Ctrl-C</code>.</p>
 <p>Note, if you're embedding images into your markdown, please name them appropriately (preferably including the name of your markdown file, e.g. <code>XY-workflow-img1.png</code>) and place them into the <code>docs/img</code> folder. This will keep our <code>docs</code> folder nice and clean.</p>
 <p>When you're finished, commit your changes as you normally would, e.g.: </p>
-<div class="codehilite"><pre><span></span>git add &lt;myfile.md&gt;
-git commit -m &quot;some useful commit message&quot;
-</pre></div>
+<pre class="codehilite"><code>git add &lt;myfile.md&gt;
+git commit -m &quot;some useful commit message&quot;</code></pre>
 
 
 <p>And then build the site one last time and push to the <code>gh-pages</code> branch like so: </p>
 <p><strong>Note, you need to be in the main folder where the <code>mkdocs.yml</code> file is</strong></p>
-<div class="codehilite"><pre><span></span>mkdocs build
-ghp-import site -p
-</pre></div>
+<pre class="codehilite"><code>mkdocs build
+ghp-import site -p</code></pre>
 
 
 <h2 id="adding-a-new-page">Adding a New Page<a class="headerlink" href="#adding-a-new-page" title="Permanent link">&para;</a></h2>
 <p>If you want to add a new page, you'll need to add that file to the file navigation in the <code>mkdocs.yml</code> file. 
 First go look at the <code>nav</code> sectino in <code>mkdocs.yml</code> while looking at the built site and figure out what section
 you'd like to put your new page in. Then add your page to the <code>nav</code> like so:</p>
-<div class="codehilite"><pre><span></span>- &#39;New-Title`: new-page.md
-</pre></div>
+<pre class="codehilite"><code>- 'New-Title`: new-page.md</code></pre>
 
 
 <p>For more details, go <a href="https://www.mkdocs.org/user-guide/configuration/">here</a>.</p>

@@ -607,57 +607,48 @@
                 <h1 id="setting-up-mkdocs-in-a-new-repo">Setting up MkDocs in a new repo<a class="headerlink" href="#setting-up-mkdocs-in-a-new-repo" title="Permanent link">&para;</a></h1>
 <p>In your repo: </p>
 <p>Add <code>mkdocs-material-dib</code> as a submodule:</p>
-<div class="codehilite"><pre><span></span>git submodule add https://github.com/dib-lab/mkdocs-material-dib.git
-echo &quot;site/&quot; &gt;&gt; .gitignore
-</pre></div>
+<pre class="codehilite"><code>git submodule add https://github.com/dib-lab/mkdocs-material-dib.git
+echo &quot;site/&quot; &gt;&gt; .gitignore</code></pre>
 
 
 <p>Commit:</p>
-<div class="codehilite"><pre><span></span>git add .gitmodules .gitignore mkdocs-material-dib
-git commit -m &#39;Add mkdocs-material-dib submodule&#39;
-</pre></div>
+<pre class="codehilite"><code>git add .gitmodules .gitignore mkdocs-material-dib
+git commit -m 'Add mkdocs-material-dib submodule'</code></pre>
 
 
 <h2 id="install-mkdocs-and-ghp-import-if-necessary">Install <code>mkdocs</code> and <code>ghp-import</code> if necessary:<a class="headerlink" href="#install-mkdocs-and-ghp-import-if-necessary" title="Permanent link">&para;</a></h2>
-<div class="codehilite"><pre><span></span>conda install  -c conda-forge mkdocs
-conda install -c conda-forge ghp-import
-</pre></div>
+<pre class="codehilite"><code>conda install  -c conda-forge mkdocs
+conda install -c conda-forge ghp-import</code></pre>
 
 
 <h2 id="edit-site-info-and-create-docs">Edit site info and create docs<a class="headerlink" href="#edit-site-info-and-create-docs" title="Permanent link">&para;</a></h2>
 <p>Grab a <code>mkdocs.yml</code> file that you can edit. For example, this is the one for a metatranscriptomics workshop
 we taught in Nov 2018. To see what that site looks like, go <a href="https://ngs-docs.github.io/2018-cicese-metatranscriptomics">here</a>.</p>
-<div class="codehilite"><pre><span></span>wget https://raw.githubusercontent.com/ngs-docs/2018-cicese-metatranscriptomics/master/mkdocs.yml
-</pre></div>
+<pre class="codehilite"><code>wget https://raw.githubusercontent.com/ngs-docs/2018-cicese-metatranscriptomics/master/mkdocs.yml</code></pre>
 
 
 <p>Edit the info in <code>mkdocs.yml</code> to reflect your repo name and address, color, and sidebar navigation (<code>nav</code>). You'll also see that you can change the names for your docs directory and built web pages, but I assume here that they are <code>docs</code> and <code>site</code>, respectively. </p>
 <p>Make a <code>docs</code> directory where you'll add the markdown docs for the website. Add a simple <code>hello world</code> or similar md file to start. </p>
-<div class="codehilite"><pre><span></span>mkdir -p docs
-echo &#39;# Hello World&#39; &gt; docs/index.md
-</pre></div>
+<pre class="codehilite"><code>mkdir -p docs
+echo '# Hello World' &gt; docs/index.md</code></pre>
 
 
 <h2 id="deploy-the-site">Deploy the site<a class="headerlink" href="#deploy-the-site" title="Permanent link">&para;</a></h2>
 <p>Go to <code>Settings</code> in your repo, and enable Github Pages for your repository.</p>
 <p>In your repo, build the site:</p>
-<div class="codehilite"><pre><span></span>mkdocs build
-</pre></div>
+<pre class="codehilite"><code>mkdocs build</code></pre>
 
 
 <p>View your site locally:</p>
-<div class="codehilite"><pre><span></span>mkdocs serve
-</pre></div>
+<pre class="codehilite"><code>mkdocs serve</code></pre>
 
 
 <p>Push your changes to <code>gh-pages</code>:</p>
-<div class="codehilite"><pre><span></span>ghp-import site -p
-</pre></div>
+<pre class="codehilite"><code>ghp-import site -p</code></pre>
 
 
 <p>Check your Github Pages URL for your simple md file:</p>
-<div class="codehilite"><pre><span></span>https://&lt;repo-owner&gt;.github.io/&lt;repo-name&gt;
-</pre></div>
+<pre class="codehilite"><code>https://&lt;repo-owner&gt;.github.io/&lt;repo-name&gt;</code></pre>
 
 
 <p>Continue to edit your docs, using <code>mkdocs build</code> to build the html version of the site, and <code>ghp-import</code> to push to <code>gh-pages</code>. Voila! </p>
@@ -665,14 +656,12 @@ echo &#39;# Hello World&#39; &gt; docs/index.md
 <p>(for example, if you set this up on a different computer, but want to edit the docs)</p>
 <p>If you want to edit the docs, you'll need to grab the <code>mkdocs-material-dib</code> submodule.</p>
 <p>If cloning the repo for the first time:</p>
-<div class="codehilite"><pre><span></span>git clone --recursive https://github.com/&lt;repo-owner&gt;/&lt;repo-name&gt;.git
-</pre></div>
+<pre class="codehilite"><code>git clone --recursive https://github.com/&lt;repo-owner&gt;/&lt;repo-name&gt;.git</code></pre>
 
 
 <p><code>recursive</code> will pull the submodule as well as the main git repo.</p>
 <p>If you already have the repo, and need to pull in the submodule:</p>
-<div class="codehilite"><pre><span></span>git submodule update --init
-</pre></div>
+<pre class="codehilite"><code>git submodule update --init</code></pre>
 
 
 <p>For more details, follow the instructions <a href="https://github.com/dib-lab/mkdocs-material-dib/tree/082e5399514cf2eb7c496eecb30a5570452966aa">here</a></p>
