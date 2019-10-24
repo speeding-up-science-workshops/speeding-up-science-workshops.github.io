@@ -1,4 +1,4 @@
-name: Build and deploy documentation
+name: Build documentation on PR
 
 on: [push]
 
