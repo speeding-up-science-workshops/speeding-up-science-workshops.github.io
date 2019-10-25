@@ -1,0 +1,14 @@
+# human readable title
+title: Abundance Visualiation of Metabarcode Sequence Data
+
+# under speeding-up-science-workshops/
+github: abundance-viz-metabarcoding
+
+# latest DOI, probably via zenodo
+doi: 10.5281/zenodo.3519348
+
+# binder type? can be rstudio or notebook for now
+binder-type: rstudio
+
+# representative image name (relative to github repo top)
+image_filename: abundance_plot_metabarcoding.png
