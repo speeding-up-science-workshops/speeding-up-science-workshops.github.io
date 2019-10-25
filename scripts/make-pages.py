@@ -67,6 +67,9 @@ def main():
     for dirname, subdirlist, filelist in os.walk(args.site_config_directory):
         for filename in filelist:
             fullpath = os.path.join(dirname, filename)
+            if fullpath.endswith('~') or filename.startswith('.'):
+                # ignore silently
+                continue
             if not fullpath.endswith('.yml'):
                 print('ignoring unknown file type {}', fullpath)
                 continue
