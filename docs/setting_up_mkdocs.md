@@ -96,3 +96,11 @@ git submodule update --init
 ```
 
 For more details, follow the instructions [here](https://github.com/dib-lab/mkdocs-material-dib/tree/082e5399514cf2eb7c496eecb30a5570452966aa)
+
+## Setting up automatic deploys with GitHub Actions
+
+See an example in the the [Speeding Up Science](https://github.com/speeding-up-science-workshops/speeding-up-science-workshops.github.io/tree/source/.github/workflows) repo.
+- `ci.yml` defines the workflow that runs on every PR, and checks if there are no errors during the `mkdocs build` process.
+- `build_docs.yml` defines an extra deploy step using [actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
+  for deploys to the `master` branch (the GitHub Pages branch for this repo). You need to set up a deploy key and ACTIONS_DEPLOY_KEY in secrets to be able to do
+  that, follow instructions in the [actions-gh-pages README](https://github.com/peaceiris/actions-gh-pages/blob/master/README.md#getting-started) for more info.
