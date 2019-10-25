@@ -523,6 +523,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#setting-up-automatic-deploys-with-github-actions" title="Setting up automatic deploys with GitHub Actions" class="md-nav__link">
+    Setting up automatic deploys with GitHub Actions
+  </a>
+  
+</li>
+      
       
       
       
@@ -583,6 +590,13 @@
         <li class="md-nav__item">
   <a href="#the-first-time-you-clone-a-repo-with-a-mkdocs-submodule" title="The first time you clone a repo with a mkdocs submodule:" class="md-nav__link">
     The first time you clone a repo with a mkdocs submodule:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-automatic-deploys-with-github-actions" title="Setting up automatic deploys with GitHub Actions" class="md-nav__link">
+    Setting up automatic deploys with GitHub Actions
   </a>
   
 </li>
@@ -665,6 +679,12 @@ echo '# Hello World' &gt; docs/index.md</code></pre>
 
 
 <p>For more details, follow the instructions <a href="https://github.com/dib-lab/mkdocs-material-dib/tree/082e5399514cf2eb7c496eecb30a5570452966aa">here</a></p>
+<h2 id="setting-up-automatic-deploys-with-github-actions">Setting up automatic deploys with GitHub Actions<a class="headerlink" href="#setting-up-automatic-deploys-with-github-actions" title="Permanent link">&para;</a></h2>
+<p>See an example in the the <a href="https://github.com/speeding-up-science-workshops/speeding-up-science-workshops.github.io/tree/source/.github/workflows">Speeding Up Science</a> repo.
+- <code>ci.yml</code> defines the workflow that runs on every PR, and checks if there are no errors during the <code>mkdocs build</code> process.
+- <code>build_docs.yml</code> defines an extra deploy step using <a href="https://github.com/peaceiris/actions-gh-pages">actions-gh-pages</a>
+  for deploys to the <code>master</code> branch (the GitHub Pages branch for this repo). You need to set up a deploy key and ACTIONS_DEPLOY_KEY in secrets to be able to do
+  that, follow instructions in the <a href="https://github.com/peaceiris/actions-gh-pages/blob/master/README.md#getting-started">actions-gh-pages README</a> for more info.</p>
                 
                   
                 

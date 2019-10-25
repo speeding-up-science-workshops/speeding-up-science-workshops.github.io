@@ -676,12 +676,8 @@ and you can continue to make changes to your <code>md</code> file until it looks
 git commit -m &quot;some useful commit message&quot;</code></pre>
 
 
-<p>And then build the site one last time and push to the <code>gh-pages</code> branch like so: </p>
-<p><strong>Note, you need to be in the main folder where the <code>mkdocs.yml</code> file is</strong></p>
-<pre class="codehilite"><code>mkdocs build
-ghp-import site -p</code></pre>
-
-
+<p>The repository is set up to use GitHub Actions to build the docs and upload to
+the right branch.</p>
 <h2 id="adding-a-new-page">Adding a New Page<a class="headerlink" href="#adding-a-new-page" title="Permanent link">&para;</a></h2>
 <p>If you want to add a new page, you'll need to add that file to the file navigation in the <code>mkdocs.yml</code> file. 
 First go look at the <code>nav</code> sectino in <code>mkdocs.yml</code> while looking at the built site and figure out what section
@@ -698,7 +694,6 @@ you'd like to put your new page in. Then add your page to the <code>nav</code> l
 <li><code>mkdocs serve</code> to view page and navigation</li>
 <li>repeat the above steps until satisfied</li>
 <li><code>git commit</code> (and <code>git push</code>) your changes </li>
-<li><code>mkdocs build</code> and then <code>ghp-import site -p</code> to update the website</li>
 </ul>
 <h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
 <p>If you see errors during <code>mkdocs build</code> or <code>mkdocs serve</code>, the likely culprit is improper formatting of the <code>nav</code> section in the <code>mkdocs.yml</code> file. Yaml is sensitive to spacing, quotes, etc! Check out the working pages and make your entry look like those! Any other issues? Submit an issue on github!</p>
