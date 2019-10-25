@@ -19,5 +19,7 @@ jobs:
           python -m pip install mkdocs
       - name: Generate auto pages for repos
         run: python scripts/make-pages.py sites-config docs/autodocs
+      - name: Check for dead links in Markdown
+        uses: gaurav-nelson/github-action-markdown-link-check@0.4.0
       - name: Build site
         run: mkdocs build
