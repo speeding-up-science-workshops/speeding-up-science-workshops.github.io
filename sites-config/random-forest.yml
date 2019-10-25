@@ -5,7 +5,7 @@ title: Random Forest Classifier of Metabarcode Sequence Data
 github: metabarcode-random-forest
 
 # latest DOI, probably via zenodo
-doi: 
+doi: 10.5281/zenodo.3519422
 
 # binder type? can be rstudio or notebook for now
 binder-type: rstudio

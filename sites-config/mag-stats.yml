@@ -5,7 +5,7 @@ title: MAG statistics
 github: MAGstats-binder
 
 # latest DOI, probably via zenodo
-doi:
+doi: 10.5281/zenodo.2780512
 
 # binder type? can be rstudio or notebook for now
 binder-type: notebook 

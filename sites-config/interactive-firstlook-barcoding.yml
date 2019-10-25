@@ -5,7 +5,7 @@ title: Interactive First-Look Metabarcoding
 github: metabarcode-first-look-viz 
 
 # latest DOI, probably via zenodo
-doi: 
+doi: 10.5281/zenodo.3519418
 
 # binder type? can be rstudio or notebook for now
 binder-type: notebook 

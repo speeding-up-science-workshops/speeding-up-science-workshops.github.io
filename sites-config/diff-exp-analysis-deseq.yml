@@ -5,7 +5,7 @@ title: Exploratory visualizations and DESeq2
 github: metatranscriptomics-visualizations
 
 # latest DOI, probably via zenodo
-doi: 
+doi: 10.5281/zenodo.3519414
 
 # binder type? can be rstudio or notebook for now
 binder-type: rstudio
