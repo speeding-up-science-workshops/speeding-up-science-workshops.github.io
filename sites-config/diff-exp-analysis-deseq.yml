@@ -1,0 +1,14 @@
+# human readable title
+title: Exploratory visualizations and DESeq2
+
+# under speeding-up-science-workshops/
+github: metatranscriptomics-visualizations
+
+# latest DOI, probably via zenodo
+doi: 
+
+# binder type? can be rstudio or notebook for now
+binder-type: rstudio
+
+# representative image name (relative to github repo top)
+image_filename: 

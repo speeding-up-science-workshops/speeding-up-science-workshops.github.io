@@ -40,18 +40,18 @@ extra_css:
 nav:
   - 'Home' : 'index.md'
   - 'Metagenomics':
-    - 'KEGG Decoder': 'kegg-decoder.md'
-    - 'MAG Statistics': 'mag-stats.md'
-    - 'MAG Representation': 'mag-representation.md'
+    - 'KEGG Decoder': 'autodocs/kegg-decoder.md'
+    - 'MAG Statistics': 'autodocs/mag-stats.md'
+    - 'MAG Representation': 'autodocs/mag-representation.md'
   - 'Metatranscriptomics':
-    - 'Hierarchical Clustering and Differential Expression Analysis with DESeq': 'diff-exp-analysis-deseq.md'
-    - 'LDA Analysis': 'lda-analysis.md'
-    - 'Taxa and Function Summary': 'taxa-and-function-summary.md'
+    - 'Hierarchical Clustering and Differential Expression Analysis with DESeq': 'autodocs/diff-exp-analysis-deseq.md'
+    - 'LDA Analysis': 'autodocs/lda-analysis.md'
+    - 'Taxa and Function Summary': 'autodocs/taxa-and-function-summary.md'
   - 'Metabarcoding':
-    - 'Initial Visualization of Barcodes': 'initial-viz-barcoding.md'
-    - 'Interactive First-Look Barcoding': 'interactive-firstlook-barcoding.md'
-    - 'Taxon Abundance Vizualization': 'abundance-viz-metabarcoding.md'
-    - 'Random Forest Classifier of Metabarcode Sequence Data': 'random-forest.md'
+    - 'Initial Visualization of Barcodes': 'autodocs/initial-viz-barcoding.md'
+    - 'Interactive First-Look Barcoding': 'autodocs/interactive-firstlook-barcoding.md'
+    - 'Taxon Abundance Vizualization': 'autodocs/abundance-viz-metabarcoding.md'
+    - 'Random Forest Classifier of Metabarcode Sequence Data': 'autodocs/random-forest.md'
   - 'Utilities':
     - 'Editing This Site': 'editing_this_site.md'
     - 'Setting Up mkdocs': 'setting_up_mkdocs.md'
