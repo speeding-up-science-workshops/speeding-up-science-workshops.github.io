@@ -1,0 +1,14 @@
+# human readable title
+title: Metagenome-Assembled Genomes Visualization 
+
+# under speeding-up-science-workshops/
+github: MetaG-MAG-representation
+
+# latest DOI, probably via zenodo
+doi: 
+
+# binder type? can be rstudio or notebook for now
+binder-type: rstudio
+
+# representative image name (relative to github repo top)
+image_filename: heatmap-normalized-scaled-1.png 

@@ -1,0 +1,14 @@
+# human readable title
+title: Heat Tree Visualization
+
+# under speeding-up-science-workshops/
+github: heat-tree
+
+# latest DOI, probably via zenodo
+doi: 
+
+# binder type? can be rstudio or notebook for now
+binder-type: rstudio
+
+# representative image name (relative to github repo top)
+image_filename: Depth_comparisons.png
