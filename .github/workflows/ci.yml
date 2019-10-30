@@ -24,3 +24,10 @@ jobs:
       #  uses: gaurav-nelson/github-action-markdown-link-check@0.4.0
       - name: Build site
         run: mkdocs build
+      - name: Deploy to GitHub Pages
+        if: startsWith(github.ref, 'refs/heads/source')
+        uses: peaceiris/actions-gh-pages@v2.5.0
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          PUBLISH_BRANCH: master
+          PUBLISH_DIR: site
