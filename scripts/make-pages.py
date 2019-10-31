@@ -39,14 +39,12 @@ def grab_README_text(d):
                 start = lineno
 
         end = len(text)
-        for lineno in range(start + 1, len(text)):
-            if text[lineno].strip().startswith('## '):
-                end = lineno
-
-        if start is None:
-            return """(no summary text provide)"""
-
-        return "\n".join(text[start:end])
+        if start is not None:
+            for lineno in range(start + 1, len(text)):
+                if text[lineno].strip().startswith('## '):
+                    end = lineno
+            return "\n".join(text[start:end])
+        return """(no summary text provided)"""
 
 
 def main():
@@ -76,7 +74,7 @@ def main():
 
             basepath = os.path.basename(filename[:-4])
 
-            d = yaml.load(open(fullpath, 'rt'))
+            d = yaml.safe_load(open(fullpath, 'rt'))
             print('file:', fullpath)
             pprint.pprint(d)
 

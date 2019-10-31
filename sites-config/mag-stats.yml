@@ -1,0 +1,14 @@
+# human readable title
+title: MAG statistics
+
+# under speeding-up-science-workshops/
+github: MAGstats-binder
+
+# latest DOI, probably via zenodo
+doi: 10.5281/zenodo.2780512
+
+# binder type? can be rstudio or notebook for now
+binder-type: notebook 
+
+# representative image name (relative to github repo top)
+image_filename: magstats.png

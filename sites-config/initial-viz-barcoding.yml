@@ -1,0 +1,14 @@
+# human readable title
+title: Initial Visualization for Metabarcoding Data
+
+# under speeding-up-science-workshops/
+github: metabarcode-NMDS
+
+# latest DOI, probably via zenodo
+doi: 10.5281/zenodo.3519420
+
+# binder type? can be rstudio or notebook for now
+binder-type: rstudio
+
+# representative image name (relative to github repo top)
+image_filename: initial-metabarcoding.png 
