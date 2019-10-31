@@ -60,7 +60,7 @@ nav:
     - 'NMDS and diversity statistics': 'autodocs/metabarcoding-viz.md'
     - 'Heat-Tree: Compare Abundance of Phylogenetic groups across samples': 'autodocs/heat-tree.md'
     - 'Alpha Diversity Visualization': 'autodocs/metabarcoding-alphaviz.md'
-    - 'Interactive Phylogenetic Tree': 'autodocs/16s-interactive-tree.md'
+    - 'Interactive Phylogenetic Tree': 'autodocs/metabarcode-interactive-tree.md'
   - 'Utilities':
     - 'Editing This Site': 'editing_this_site.md'
     - 'Setting Up mkdocs': 'setting_up_mkdocs.md'
