@@ -56,9 +56,10 @@ nav:
     - 'Random Forest Classifier of Metabarcode Sequence Data': 'autodocs/random-forest.md'
     - 'Metabarcoding Time Series Analysis and Visualizations': 'autodocs/metabarcoding-TARA-Oceans-TimeSeries.md'
     - 'Abundance of Conditionally Rare Taxa': 'autodocs/metabarcode-abundance-rare-taxa.md'
+    - 'Relative Abundance of Rare Taxa': 'autodocs/relativeabundance_crt.md'
     - 'NMDS and diversity statistics': 'autodocs/metabarcoding-viz.md'
     - 'Heat-Tree: Compare Abundance of Phylogenetic groups across samples': 'autodocs/heat-tree.md'
-    - 'Alpha Diversity Visualization': 'metabarcoding-alphaviz.md'
+    - 'Alpha Diversity Visualization': 'autodocs/metabarcoding-alphaviz.md'
   - 'Utilities':
     - 'Editing This Site': 'editing_this_site.md'
     - 'Setting Up mkdocs': 'setting_up_mkdocs.md'
