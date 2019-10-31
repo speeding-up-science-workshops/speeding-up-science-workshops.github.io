@@ -1,11 +1,11 @@
 # human readable title
-title: Abundance_barplot 
+title: Taxon Abundance Barplot 
 
 # under speeding-up-science-workshops/
 github: Abundance_barplot
 
 # latest DOI, probably via zenodo
-doi: 
+doi: 10.5281/zenodo.3523480 
 
 # binder type? can be rstudio or notebook for now
 binder-type: rstudio

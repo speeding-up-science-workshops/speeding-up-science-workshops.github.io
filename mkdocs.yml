@@ -51,7 +51,12 @@ nav:
     - 'Initial Visualization of Barcodes': 'autodocs/initial-viz-barcoding.md'
     - 'Interactive First-Look Barcoding': 'autodocs/interactive-firstlook-barcoding.md'
     - 'Taxon Abundance Vizualization': 'autodocs/abundance-viz-metabarcoding.md'
+    - 'Taxon Abundance Barplot': 'autodocs/abundance-barplot.md'
     - 'Random Forest Classifier of Metabarcode Sequence Data': 'autodocs/random-forest.md'
+    - "Metabarcoding Time Series Analysis and Visualizations": "autodocs/metabarcoding-TARA-Oceans-TimeSeries.md"
+    - "Abundance of Conditionally Rare Taxa":"autodocs/metabarcode-abundance-rare-taxa.md" 
+    - "NMDS and diversity statistics": "autodocs/metabarcoding-viz.md"
+    - "Heat-Tree: Compare Abundance of Phylogenetic groups across samples": "autodocs/heat-tree.md"
   - 'Utilities':
     - 'Editing This Site': 'editing_this_site.md'
     - 'Setting Up mkdocs': 'setting_up_mkdocs.md'

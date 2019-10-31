@@ -1,14 +1,14 @@
 # human readable title
-title: Heat Tree Visualization
+title: Relative Abundance and Community Similiarity of Conditionally Rare Taxa
 
 # under speeding-up-science-workshops/
-github: heat-tree
+github: ord_abund_raretaxa
 
 # latest DOI, probably via zenodo
-doi: 10.5281/zenodo.3523486 
+doi: 10.5281/zenodo.3523468 
 
 # binder type? can be rstudio or notebook for now
 binder-type: rstudio
 
 # representative image name (relative to github repo top)
-image_filename: Depth_comparisons.png
+image_filename: bray_nmds_all_crt.png
