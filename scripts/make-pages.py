@@ -44,7 +44,7 @@ def grab_README_text(d):
                 if text[lineno].strip().startswith('## '):
                     end = lineno
             return "\n".join(text[start:end])
-        return """(no summary text provide)"""
+        return """(no summary text provided)"""
 
 
 def main():

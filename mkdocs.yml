@@ -46,7 +46,7 @@ nav:
   - 'Metatranscriptomics':
     - 'Hierarchical Clustering and Differential Expression Analysis with DESeq': 'autodocs/diff-exp-analysis-deseq.md'
     - 'LDA Analysis': 'autodocs/lda-analysis.md'
-    - 'Taxa and Function Summary': 'autodocs/taxa-and-function-summary.md'
+    - 'Taxa and Function Summary': 'autodocs/MetaT-taxa-and-function-summary.md'
   - 'Metabarcoding':
     - 'Initial Visualization of Barcodes': 'autodocs/initial-viz-barcoding.md'
     - 'Interactive First-Look Barcoding': 'autodocs/interactive-firstlook-barcoding.md'
