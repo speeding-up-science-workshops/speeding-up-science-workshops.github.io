@@ -42,21 +42,23 @@ nav:
   - 'Metagenomics':
     - 'KEGG Decoder': 'autodocs/kegg-decoder.md'
     - 'MAG Statistics': 'autodocs/mag-stats.md'
-    - 'MAG Representation': 'autodocs/mag-representation.md'
+    - 'MAG Representation': 'autodocs/metag-mag-representation.md'
   - 'Metatranscriptomics':
     - 'Hierarchical Clustering and Differential Expression Analysis with DESeq': 'autodocs/diff-exp-analysis-deseq.md'
     - 'LDA Analysis': 'autodocs/lda-analysis.md'
     - 'Taxa and Function Summary': 'autodocs/MetaT-taxa-and-function-summary.md'
+    - 'Correlate Metagenomics and Metatranscriptomics data': 'autodocs/metag-metat-correlation.md'
   - 'Metabarcoding':
     - 'Initial Visualization of Barcodes': 'autodocs/initial-viz-barcoding.md'
     - 'Interactive First-Look Barcoding': 'autodocs/interactive-firstlook-barcoding.md'
     - 'Taxon Abundance Vizualization': 'autodocs/abundance-viz-metabarcoding.md'
     - 'Taxon Abundance Barplot': 'autodocs/abundance-barplot.md'
     - 'Random Forest Classifier of Metabarcode Sequence Data': 'autodocs/random-forest.md'
-    - "Metabarcoding Time Series Analysis and Visualizations": "autodocs/metabarcoding-TARA-Oceans-TimeSeries.md"
-    - "Abundance of Conditionally Rare Taxa":"autodocs/metabarcode-abundance-rare-taxa.md" 
-    - "NMDS and diversity statistics": "autodocs/metabarcoding-viz.md"
-    - "Heat-Tree: Compare Abundance of Phylogenetic groups across samples": "autodocs/heat-tree.md"
+    - 'Metabarcoding Time Series Analysis and Visualizations': 'autodocs/metabarcoding-TARA-Oceans-TimeSeries.md'
+    - 'Abundance of Conditionally Rare Taxa': 'autodocs/metabarcode-abundance-rare-taxa.md'
+    - 'NMDS and diversity statistics': 'autodocs/metabarcoding-viz.md'
+    - 'Heat-Tree: Compare Abundance of Phylogenetic groups across samples': 'autodocs/heat-tree.md'
+    - 'Alpha Diversity Visualization': 'metabarcoding-alphaviz.md'
   - 'Utilities':
     - 'Editing This Site': 'editing_this_site.md'
     - 'Setting Up mkdocs': 'setting_up_mkdocs.md'

@@ -5,7 +5,7 @@ title: Metagenome-Assembled Genomes Visualization
 github: MetaG-MAG-representation
 
 # latest DOI, probably via zenodo
-doi: 
+doi: 10.5281/zenodo.3523527 
 
 # binder type? can be rstudio or notebook for now
 binder-type: rstudio
