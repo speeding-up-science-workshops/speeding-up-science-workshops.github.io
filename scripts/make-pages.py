@@ -74,7 +74,7 @@ def main():
 
             basepath = os.path.basename(filename[:-4])
 
-            d = yaml.load(open(fullpath, 'rt'))
+            d = yaml.safe_load(open(fullpath, 'rt'))
             print('file:', fullpath)
             pprint.pprint(d)
 
